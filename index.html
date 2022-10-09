@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>KALKULATOR BMI</title>
+	<link rel="stylesheet" href="./style.css">
+	<script src="script.js"></script>
+
+</head>
+<body>
+	<center>
+
+		<div id="container">
+			<h2 class="text-center">Ayo Ukur BMI Kamu</h2>
+				<div id="heightInput">
+					<p>Masukan Tinggi Badanmu (CM)</p>
+					 <input id="height" type="number" pattern="[0-9]*" placeholder="Berapa Cm" name="b"/> 
+				</div>
+				<form>
+						<div id="weightInput">
+							<p>Masukan Berat Badanmu (KG)</p>
+							 <input id="weight" type="number" pattern="[0-9]*" placeholder="Berapa Kg" name="a" />
+						</div>
+					<p>
+					<button type="button" class="btn" onclick="kalkulator()">Lihat Hasil BMI</button>
+					</p>
+					
+				</form>
+			<div id="hasil" class="text-center"></div>
+			
+			<font face="comic sans ms" color="orange" size="4"><marquee scrolldelay="10" behavior="alternate" direction="down" width="100%" scrollamount="5" height="120px" ><marquee scrolldelay="10" behavior="alternate" direction="left" scrollamount="2"> <h1>JANGAN MAKAN TERUS NANTI GENDUT.....</h1></marquee></marquee></font>
+
+			
+			<h4>@CopyRight Rohmad Krisna</h4>
+			
+		</div>
+	</center>
+	
+</body>
+</html>
